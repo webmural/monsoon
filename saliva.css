@@ -1,16 +1,11 @@
 :root {
   font-family: sans-serif;
-  font-size: calc(1em + 2vmin + 2vmax);
-  line-height: 1.5;
-}
-
-:any-link {
-  font-size: max(1em, 44px);
+  font-size: max(3ch, 5vmax);
+  line-height: 1.618;
 }
 
 :focus {
-  outline-style: groove;
-  outline-width: thick;
+  outline: thick groove;
 }
 
 .free {
@@ -43,11 +38,6 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   margin-block-end: 30vh;
-}
-
-q {
-  display: table;
-  quotes: "((" "))";
 }
 
 .wah {
